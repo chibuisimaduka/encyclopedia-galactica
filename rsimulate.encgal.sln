@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[0] support", "[0] support", "{BE0B753B-46C9-410C-BA9B-387D5C9C84F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[1] Lib", "[1] Lib", "{20093942-39CF-43AC-9B6E-95DF0D13F367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "librSimulate.galaxygen", "librSimulate.galaxygen\librSimulate.galaxygen.csproj", "{D3965A01-803A-49D8-A891-0E5B4DB9EBCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[2] CLI", "[2] CLI", "{29860A06-D1ED-4FCC-B9BA-A75CDA2CB727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encgal", "encgal\encgal.csproj", "{A41EE2C8-00AB-4640-BB4D-F57855E0220A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A41EE2C8-00AB-4640-BB4D-F57855E0220A}.Debug|x86.ActiveCfg = Debug|x86
+		{A41EE2C8-00AB-4640-BB4D-F57855E0220A}.Debug|x86.Build.0 = Debug|x86
+		{A41EE2C8-00AB-4640-BB4D-F57855E0220A}.Release|x86.ActiveCfg = Release|x86
+		{A41EE2C8-00AB-4640-BB4D-F57855E0220A}.Release|x86.Build.0 = Release|x86
+		{D3965A01-803A-49D8-A891-0E5B4DB9EBCC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3965A01-803A-49D8-A891-0E5B4DB9EBCC}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3965A01-803A-49D8-A891-0E5B4DB9EBCC}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3965A01-803A-49D8-A891-0E5B4DB9EBCC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3965A01-803A-49D8-A891-0E5B4DB9EBCC} = {20093942-39CF-43AC-9B6E-95DF0D13F367}
+		{A41EE2C8-00AB-4640-BB4D-F57855E0220A} = {29860A06-D1ED-4FCC-B9BA-A75CDA2CB727}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = encgal\encgal.csproj
+	EndGlobalSection
+EndGlobal
